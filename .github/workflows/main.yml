@@ -23,7 +23,7 @@ jobs:
       run: pwd
 
     - name: List of files
-      run: 'ls -al'
+      run: 'ls -al ../../'
 
     - name: Install dependencies
       run: 'mvn compile'
